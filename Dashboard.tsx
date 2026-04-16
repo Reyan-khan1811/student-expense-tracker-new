@@ -81,7 +81,7 @@ export default function Dashboard() {
   };
 
   const getDaysMessage = () => {
-    if (totalSpent === 0) return "INF Forever — start spending!";
+    if (totalSpent === 0) return "INF Forever - start spending!";
     if (daysUntilBroke === Infinity) return "INF Forever";
     if (remaining <= 0) return "You're already over budget! 💸";
     if (daysUntilBroke > 15) return "Safe spending zone! 🎉";
